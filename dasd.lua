@@ -87,7 +87,7 @@ for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
 			rs.RenderStepped:Wait()
 			add:Destroy()
 		end)
-		v.Parent.Parent:FindFirstChildWhichIsA("Part"):Destroy()
+		v.Parent.Parent:FindFirstChildWhichIsA("Part")
 	end
 end
 local rs = game:GetService("RunService")
